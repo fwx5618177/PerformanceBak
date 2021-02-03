@@ -1,0 +1,278 @@
+@charset "utf-8";
+@media screen and (min-width: 1300px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .resume {
+        width: 100%;
+        background-color: #000;
+    }
+    
+    
+    .header {
+        height: 50vh;
+        width: 100%;
+        display: inline-table;
+        background: url(./images/Resume-1.jpg) no-repeat center center/cover;
+    }
+    
+    .test {
+        position: relative;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .test p:nth-child(1) {
+        font-size: 75px;
+        color: #000;
+    }
+    
+    .test p:nth-child(2) {
+        font-size: 30px;
+        color: #000;
+    }
+    
+    .header p {
+        text-align: center;
+        vertical-align: middle;
+        
+    
+         /* text-align: center; */
+    }
+    
+    .resume-body {
+        width: 80%;
+        margin:0 10%;
+        padding: 0;
+        /* padding: 20px; */
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        background-color: #fff;
+        /* border: 1px solid black; */
+    }
+    
+    .title {
+        margin-left: 0px;
+        font-size: 40px;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .context {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    
+    ul {
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .left {
+        position: relative;
+        top:0px;
+        margin-left: 20px;
+        /* border: 1px solid black; */
+    }
+    
+    .Objective {
+        /* position: relative; */
+        margin-top: 0px;
+        /* padding: 0px; */
+    }
+    
+    .apply {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .worktime {
+        font-style: italic;
+    }
+    
+    .self-evaluation ul {
+        line-height: 40px;
+        list-style: decimal;
+    }
+    
+    .right {
+        /* border: 1px solid black; */
+        margin-left: 60px;
+        margin-right: 10px;
+    }
+    
+    .skills ul {
+        list-style: disc;
+        /* list-style-type: square; */
+        line-height: 30px;
+    }
+    
+    .education ul {
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .Languages ul {
+        display: inline-block;
+        /* justify-content: center; */
+        /* align-items: center; */
+        padding: 0px;
+    }
+    
+    .EXPERIENCE ul {
+        list-style: disc;
+    }
+    
+    .social-media ul {
+        padding-left: 0px;
+    }
+    
+    .social-media ul a {
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .resume {
+        width: 100%;
+        background-color: #cccccc;
+    }
+
+    .header {
+        margin: 0px;
+        height: 50vh;
+        width: 100%;
+        display: inline-table;
+        background: url(./images/Resume-1.jpg) no-repeat center center/cover;
+    }
+
+    .test {
+        position: relative;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .test p:nth-child(1) {
+        font-size: 1.7rem;
+        color: #000;
+    }
+
+    .test p:nth-child(2) {
+        color: #000;
+        font-size: 0.8rem;
+    }
+
+    .header p {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .resume-body {
+        width: 90%;
+        margin: 0 2%;
+        padding: 0px;
+        position: relative;
+        /* background-color: #fff; */
+
+    }
+
+    .title {
+        margin-left: 0px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .context {
+        font-size: 1.1rem;
+        font-weight: normal;
+    }
+
+    ul {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .left {
+        position: relative;
+        top: 0px;
+        margin-left: 0.5rem;
+    }
+
+    .Objective {
+        margin-top: 0px;
+    }
+
+    .apply {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .worktime {
+        font-style: italic;
+    }
+
+    .self-evaluation ul {
+        line-height: 2rem;
+        list-style: decimal;
+    }
+
+
+    .skills ul {
+        list-style: disc;
+        line-height: 2rem;
+    }
+
+
+    .Languages ul {
+        margin-top: 0;
+        display: inline-block;
+        padding-left: 1.2rem;
+    }
+
+    .Languages .title {
+        margin-bottom: 0;
+    }
+
+
+    .EXPERIENCE ul {
+        list-style: disc;
+    }
+
+    .social-media ul {
+        padding-left: 1.1rem ;
+    }
+
+    .social-media ul a {
+        white-space: nowrap;
+        margin-left: 0.3rem;
+        /* margin-bottom: 0.6rem; */
+    }
+
+    .social-media ul li svg {
+        margin-top: 0.5rem;
+    }
+
+    
+    
+}   
